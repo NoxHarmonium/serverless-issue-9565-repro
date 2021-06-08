@@ -1,0 +1,25 @@
+service: serverless-issue-9565-repro-2
+
+frameworkVersion: "2"
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  lambdaHashingVersion: 20201221
+
+  # These options should force a custom resource lambda to be packaged
+  tracing:
+    apiGateway: true
+    lambda: true
+  logs:
+    restApi: # Enables INFO level logging of API Gateway requests
+      accessLogging: true
+      fullExecutionData: false
+
+functions:
+  hello:
+    handler: handler.hello
+    events:
+      - http:
+          path: v1/hello
+          method: get

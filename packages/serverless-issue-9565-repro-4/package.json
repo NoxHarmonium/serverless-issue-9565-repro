@@ -1,0 +1,12 @@
+{
+  "name": "serverless-issue-9565-repro-4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "serverless": "^2.44.0"
+  },
+  "scripts": {
+    "build": "sls package --verbose"
+  }
+}

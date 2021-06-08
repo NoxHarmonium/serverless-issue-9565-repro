@@ -1,0 +1,17 @@
+{
+    "private": true,
+    "workspaces": {
+        "packages": [
+            "packages/serverless-issue-9565-repro-1",
+            "packages/serverless-issue-9565-repro-2",
+            "packages/serverless-issue-9565-repro-3",
+            "packages/serverless-issue-9565-repro-4"
+        ]
+    },
+    "devDependencies": {
+        "rimraf": "^3.0.2"
+    },
+    "scripts": {
+        "build-all": "rimraf $HOME/.serverless/artifacts/ && yarn workspaces foreach --parallel --interlaced -j 4 run build"
+    }
+}
