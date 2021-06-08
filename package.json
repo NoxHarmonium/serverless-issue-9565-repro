@@ -12,6 +12,6 @@
         "rimraf": "^3.0.2"
     },
     "scripts": {
-        "build-all": "rimraf $HOME/.serverless/artifacts/ && yarn workspaces foreach --parallel --interlaced -j 4 run build"
+        "build-all": "rimraf $HOME/.serverless/artifacts/ && yarn workspaces foreach --verbose --parallel --interlaced -j 4 run build"
     }
 }
