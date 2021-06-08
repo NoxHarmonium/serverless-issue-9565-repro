@@ -19,6 +19,8 @@ It always works
 
 ### Actual
 
+It shows an error like the following about 25% of the time
+
 ```
 ➤ YN0000:  Error ---------------------------------------------------
 ➤ YN0000:
