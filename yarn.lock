@@ -172,9 +172,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@serverless/components@npm:^3.11.0":
-  version: 3.11.0
-  resolution: "@serverless/components@npm:3.11.0"
+"@serverless/components@npm:^3.12.0":
+  version: 3.12.0
+  resolution: "@serverless/components@npm:3.12.0"
   dependencies:
     "@serverless/platform-client": ^4.2.2
     "@serverless/platform-client-china": ^2.1.9
@@ -207,7 +207,7 @@ __metadata:
     uuid: ^8.3.2
   bin:
     components: bin/bin
-  checksum: e153e6b4d19b2b65b84fc7e7bf9d1c41876778c4b3cf06c21d7cf5a4354bc6057993f5acb6a0cfa3c502069883d39e58f66facec3569a13421e4be7477e5548b
+  checksum: 42193fd6ac2005e290e766cb682676a182ca170434c7f1625db3ef95d6aba5d76a20660283f05408fe670cb0faed4edf25d200fe73742e4cdb352fdac06b55ce
   languageName: node
   linkType: hard
 
@@ -224,16 +224,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@serverless/dashboard-plugin@npm:^5.2.0":
-  version: 5.2.0
-  resolution: "@serverless/dashboard-plugin@npm:5.2.0"
+"@serverless/dashboard-plugin@npm:^5.3.0":
+  version: 5.4.0
+  resolution: "@serverless/dashboard-plugin@npm:5.4.0"
   dependencies:
     "@serverless/event-mocks": ^1.1.1
     "@serverless/platform-client": ^4.2.3
-    "@serverless/utils": ^5.2.0
+    "@serverless/utils": ^5.3.0
     chalk: ^4.1.1
     child-process-ext: ^2.1.1
-    chokidar: ^3.5.1
+    chokidar: ^3.5.2
     cli-color: ^2.0.0
     flat: ^5.0.2
     fs-extra: ^9.1.0
@@ -246,10 +246,10 @@ __metadata:
     node-fetch: ^2.6.1
     open: ^7.4.2
     semver: ^7.3.5
-    simple-git: ^2.39.0
+    simple-git: ^2.40.0
     uuid: ^8.3.2
     yamljs: ^0.3.0
-  checksum: 99f36fdd1b455e77bda95e67f70aefb0d1b035263222a877fa26608f6ede315a0080dd75136cc720a3b5881cdd41017df70c2c8ff48284848a09b722f6c2c8b9
+  checksum: 1df0363f6bebd1a4f849c198199a1d2e2d6785525849588fa7c64b8a71e9cbf690b0d463a15fff21fc5976010afabecae94985d661b15b10274ae666a4d4d385
   languageName: node
   linkType: hard
 
@@ -399,6 +399,34 @@ __metadata:
     uuid: ^8.3.2
     write-file-atomic: ^3.0.3
   checksum: 79f5a928dc9d7b3629f4bc016aaa500a7ed3e40f79ff235cb9c33d360ed7168ea62a6c53ce0ab8f29cd6af1ff89a5458d29fba72b77eab46d5a44e440493be0b
+  languageName: node
+  linkType: hard
+
+"@serverless/utils@npm:^5.3.0":
+  version: 5.3.0
+  resolution: "@serverless/utils@npm:5.3.0"
+  dependencies:
+    archive-type: ^4.0.0
+    chalk: ^4.1.1
+    ci-info: ^3.2.0
+    content-disposition: ^0.5.3
+    decompress: ^4.2.1
+    ext-name: ^5.0.0
+    file-type: ^16.5.0
+    filenamify: ^4.3.0
+    get-stream: ^6.0.1
+    got: ^11.8.2
+    inquirer: ^7.3.3
+    js-yaml: ^4.1.0
+    jwt-decode: ^3.1.2
+    lodash: ^4.17.21
+    make-dir: ^3.1.0
+    ncjsm: ^4.2.0
+    p-event: ^4.2.0
+    type: ^2.5.0
+    uuid: ^8.3.2
+    write-file-atomic: ^3.0.3
+  checksum: 43dd1d6aafb5e68290876d235bfe92ff69edcce80d350e00a7a5495f32a86d5aca79cdae50a9a5a3506ca5c81d7123df0a116402e7e27973b218e924a5e1aa7f
   languageName: node
   linkType: hard
 
@@ -753,7 +781,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"anymatch@npm:~3.1.1":
+"anymatch@npm:~3.1.1, anymatch@npm:~3.1.2":
   version: 3.1.2
   resolution: "anymatch@npm:3.1.2"
   dependencies:
@@ -898,9 +926,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"aws-sdk@npm:^2.919.0":
-  version: 2.923.0
-  resolution: "aws-sdk@npm:2.923.0"
+"aws-sdk@npm:^2.926.0":
+  version: 2.930.0
+  resolution: "aws-sdk@npm:2.930.0"
   dependencies:
     buffer: 4.9.2
     events: 1.1.1
@@ -911,7 +939,7 @@ __metadata:
     url: 0.10.3
     uuid: 3.3.2
     xml2js: 0.4.19
-  checksum: 1a450a6e05e392e2e36ad1cf35a0b6f75ba9dd672062c60e32ad5aa24379e2b0cd8496fda80a13ac901b9702d453081e554d44ca8b8fd9eb105dd5b9840a9f23
+  checksum: d482a8937aeabd204bf28d6a332e4b856d9ef9f61c12a81440839da8597f0e7c16a0d0a6dee604d61a702c2eed1594859028b32872984420d1abf1012cb6546e
   languageName: node
   linkType: hard
 
@@ -1315,6 +1343,25 @@ __metadata:
     fsevents:
       optional: true
   checksum: 61b3f710f9e7dc69d76f638d8b0d37bad586497444165125ca8062f7192695f35403b5f622cbd7dfdd06805201ceaba40ff90e53ea2974df9a8087861192a99b
+  languageName: node
+  linkType: hard
+
+"chokidar@npm:^3.5.2":
+  version: 3.5.2
+  resolution: "chokidar@npm:3.5.2"
+  dependencies:
+    anymatch: ~3.1.2
+    braces: ~3.0.2
+    fsevents: ~2.3.2
+    glob-parent: ~5.1.2
+    is-binary-path: ~2.1.0
+    is-glob: ~4.0.1
+    normalize-path: ~3.0.0
+    readdirp: ~3.6.0
+  dependenciesMeta:
+    fsevents:
+      optional: true
+  checksum: 52fbff3acebf06ec0125872110f6c8403e66cd3d613264c83405496e199554d99380342d9b3a7ffd7910c53c5865e242ed7dd72fcb2e883d8e3ad3f3883aee6c
   languageName: node
   linkType: hard
 
@@ -1896,17 +1943,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"dotenv@npm:^10.0.0":
+  version: 10.0.0
+  resolution: "dotenv@npm:10.0.0"
+  checksum: 9c45712e213de63bdb646b8e5344749b7566e25a67bbd3f03711d54e40eff10066c1f23eff0081d0949fda7c8efcc6e9e8bf18d0f023a8274f55f5d5f97bb6db
+  languageName: node
+  linkType: hard
+
 "dotenv@npm:^8.2.0":
   version: 8.6.0
   resolution: "dotenv@npm:8.6.0"
   checksum: f4649999a157061dd169118f459d88db56380b2eef68e87fa9de7201796e5f6d94fa337658d7e148f404b48652a0eefe11222d9eba0cd464497911ae56cd6f93
-  languageName: node
-  linkType: hard
-
-"dotenv@npm:^9.0.2":
-  version: 9.0.2
-  resolution: "dotenv@npm:9.0.2"
-  checksum: 062a31a2fd024a8a7efee4f2d3972d488a1485e0545b97ab3c338f59f17689a2ae84b6e8ddb9ebca2902cc9b4926e7b672a476f5e326c6902648312fc3da54d9
   languageName: node
   linkType: hard
 
@@ -2327,7 +2374,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"file-type@npm:^16.4.0":
+"file-type@npm:^16.4.0, file-type@npm:^16.5.0":
   version: 16.5.0
   resolution: "file-type@npm:16.5.0"
   dependencies:
@@ -2535,7 +2582,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fsevents@patch:fsevents@~2.3.1#builtin<compat/fsevents>":
+"fsevents@patch:fsevents@~2.3.1#builtin<compat/fsevents>, fsevents@patch:fsevents@~2.3.2#builtin<compat/fsevents>":
   version: 2.3.2
   resolution: "fsevents@patch:fsevents@npm%3A2.3.2#builtin<compat/fsevents>::version=2.3.2&hash=11e9ea"
   dependencies:
@@ -2544,7 +2591,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-fsevents@~2.3.1:
+"fsevents@~2.3.1, fsevents@~2.3.2":
   version: 2.3.2
   resolution: "fsevents@npm:2.3.2"
   dependencies:
@@ -2645,7 +2692,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"glob-parent@npm:^5.1.0, glob-parent@npm:~5.1.0":
+"glob-parent@npm:^5.1.0, glob-parent@npm:~5.1.0, glob-parent@npm:~5.1.2":
   version: 5.1.2
   resolution: "glob-parent@npm:5.1.2"
   dependencies:
@@ -4547,6 +4594,15 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
+"readdirp@npm:~3.6.0":
+  version: 3.6.0
+  resolution: "readdirp@npm:3.6.0"
+  dependencies:
+    picomatch: ^2.2.1
+  checksum: 7da2fe8d5abf17ae0bf97a052718e16d29fa185f3e461153035728d93642326ae8e44c17b9a9b3a5fa616dff160e96be3184e0323efaac7211f80c0aab5f622b
+  languageName: node
+  linkType: hard
+
 "registry-auth-token@npm:^4.0.0":
   version: 4.2.1
   resolution: "registry-auth-token@npm:4.2.1"
@@ -4823,7 +4879,7 @@ fsevents@~2.3.1:
   version: 0.0.0-use.local
   resolution: "serverless-issue-9565-repro-1@workspace:packages/serverless-issue-9565-repro-1"
   dependencies:
-    serverless: ^2.44.0
+    serverless: "https://github.com/NoxHarmonium/serverless.git#08ae771470f499f4da57131737c156bb6ade3357"
   languageName: unknown
   linkType: soft
 
@@ -4831,7 +4887,7 @@ fsevents@~2.3.1:
   version: 0.0.0-use.local
   resolution: "serverless-issue-9565-repro-2@workspace:packages/serverless-issue-9565-repro-2"
   dependencies:
-    serverless: ^2.44.0
+    serverless: "https://github.com/NoxHarmonium/serverless.git#08ae771470f499f4da57131737c156bb6ade3357"
   languageName: unknown
   linkType: soft
 
@@ -4839,7 +4895,7 @@ fsevents@~2.3.1:
   version: 0.0.0-use.local
   resolution: "serverless-issue-9565-repro-3@workspace:packages/serverless-issue-9565-repro-3"
   dependencies:
-    serverless: ^2.44.0
+    serverless: "https://github.com/NoxHarmonium/serverless.git#08ae771470f499f4da57131737c156bb6ade3357"
   languageName: unknown
   linkType: soft
 
@@ -4847,22 +4903,22 @@ fsevents@~2.3.1:
   version: 0.0.0-use.local
   resolution: "serverless-issue-9565-repro-4@workspace:packages/serverless-issue-9565-repro-4"
   dependencies:
-    serverless: ^2.44.0
+    serverless: "https://github.com/NoxHarmonium/serverless.git#08ae771470f499f4da57131737c156bb6ade3357"
   languageName: unknown
   linkType: soft
 
-"serverless@npm:^2.44.0":
-  version: 2.44.0
-  resolution: "serverless@npm:2.44.0"
+"serverless@https://github.com/NoxHarmonium/serverless.git#08ae771470f499f4da57131737c156bb6ade3357":
+  version: 2.46.0
+  resolution: "serverless@https://github.com/NoxHarmonium/serverless.git#commit=08ae771470f499f4da57131737c156bb6ade3357"
   dependencies:
     "@serverless/cli": ^1.5.2
-    "@serverless/components": ^3.11.0
-    "@serverless/dashboard-plugin": ^5.2.0
+    "@serverless/components": ^3.12.0
+    "@serverless/dashboard-plugin": ^5.3.0
     "@serverless/utils": ^5.2.0
     ajv: ^6.12.6
     ajv-keywords: ^3.5.2
     archiver: ^5.3.0
-    aws-sdk: ^2.919.0
+    aws-sdk: ^2.926.0
     bluebird: ^3.7.2
     boxen: ^5.0.1
     cachedir: ^2.3.0
@@ -4872,7 +4928,7 @@ fsevents@~2.3.1:
     d: ^1.0.1
     dayjs: ^1.10.5
     decompress: ^4.2.1
-    dotenv: ^9.0.2
+    dotenv: ^10.0.0
     essentials: ^1.1.1
     fastest-levenshtein: ^1.0.12
     filesize: ^6.3.0
@@ -4905,9 +4961,9 @@ fsevents@~2.3.1:
     uuid: ^8.3.2
     yaml-ast-parser: 0.0.43
   bin:
-    serverless: bin/serverless.js
-    sls: bin/serverless.js
-  checksum: 6f7c0cb1327af2b652186102038eb800e446dbce4a6ad91e5fa1d86951328342e8c70e4518f71a6d2baa2277ee988f76607bf4787c29f24e00069d65596cde93
+    serverless: ./bin/serverless.js
+    sls: ./bin/serverless.js
+  checksum: 79a900772124859de5e50867e34ec08b4a76a18d401f499c644be7cf3800fb410e4721130fa42f6d52a6a7c80f6bef49a1333bcbf667dcfe1d809c507e94a955
   languageName: node
   linkType: hard
 
@@ -4986,14 +5042,14 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"simple-git@npm:^2.39.0":
-  version: 2.39.0
-  resolution: "simple-git@npm:2.39.0"
+"simple-git@npm:^2.40.0":
+  version: 2.40.0
+  resolution: "simple-git@npm:2.40.0"
   dependencies:
     "@kwsites/file-exists": ^1.1.1
     "@kwsites/promise-deferred": ^1.1.1
     debug: ^4.3.1
-  checksum: 26f46dab06d557219db06a3c3b7e275945a7a0a7ea93eb0905eff9256269c9ca91a710a5f9e1661cd9e3f24259244aaaf589df09a04afed06ab1b2ed4c86756a
+  checksum: c73e3963f57cc1eb0f7d7ee9439f1dc9d33ec00e1e9608d5baabf45ebe829b285074d23b0f33cbd5cc8340a1ae148f357d3d76077332c51e4518876f535eac6f
   languageName: node
   linkType: hard
 
