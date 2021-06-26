@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "serverless": "https://github.com/NoxHarmonium/serverless.git#08ae771470f499f4da57131737c156bb6ade3357"
+    "serverless": "https://github.com/NoxHarmonium/serverless.git#issue-9565-concurrency-crash"
   },
   "scripts": {
     "build": "sls package --verbose"
